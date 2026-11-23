@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { background: #FDFBF7; color: #17171F; font-family: Inter, system-ui, sans-serif; }
+::selection { background: #B9975B; color: white; }
+input, select, textarea { outline: none; }
+input:focus, select:focus, textarea:focus { border-color: #B9975B !important; box-shadow: 0 0 0 3px rgba(185,151,91,.18); }
